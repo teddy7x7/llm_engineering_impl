@@ -129,7 +129,7 @@ cost, latency, and controllability.
 
 ---
 
-## 📂 Repository Structure
+<!-- ## 📂 Repository Structure
 
 ```
 .
@@ -159,7 +159,7 @@ Each directory contains:
 * short explanations
 * notes on what worked / what didn’t
 
----
+--- -->
 
 ## ⚙️ Getting Started
 
@@ -176,7 +176,7 @@ Each directory contains:
 1. **Clone the repository**
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/llm_engineering.git
+git clone https://github.com/teddy7x7/llm_engineering_impl.git
 cd llm_engineering
 ```
 
@@ -204,7 +204,7 @@ OPENAI_API_KEY=your_key_here
 
 Most examples are designed to work **without paid APIs**.
 
----
+<!-- ---
 
 ## 📌 How to Read This Repo (for Reviewers)
 
@@ -213,7 +213,7 @@ If you're reviewing this as a portfolio project:
 1. Start with `notes/design_decisions.md`
 2. Look at `02_rag/` for system-level thinking
 3. Check `projects/` for end-to-end integration
-4. Skim commit history to see iteration patterns
+4. Skim commit history to see iteration patterns -->
 
 ---
 
