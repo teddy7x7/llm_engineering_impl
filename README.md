@@ -6,7 +6,6 @@ The work here is **inspired by** (but not copied from) the excellent
 [ed-donner/llm_engineering](https://github.com/ed-donner/llm_engineering) curriculum.
 All implementations are reworked, extended, or adapted with my own design decisions, tooling choices, and experiments.
 
----
 
 ## 🎯 Project Goals
 
@@ -23,7 +22,6 @@ This repo is built as a **learning + portfolio project**, with the following goa
 * Practice **engineering trade-offs**: latency, cost, accuracy, maintainability
 * Build a codebase that reflects **how I think as an engineer**
 
----
 
 ## 🚀 What This Repository Covers
 
@@ -65,7 +63,6 @@ This repository covers the full lifecycle of LLM-powered products — from model
 - Decision-making loops and orchestration
 - Deploying production-ready LLM applications with UI
 
----
 
 ## 🧠 Key Engineering Takeaways
 
@@ -80,7 +77,7 @@ What I deliberately focused on while building this repo:
 * **Cost & constraints are real**
   Many examples are built with free-tier or open models to simulate real-world limitations.
 
----
+
 
 ## 🧩 Representative Projects
 
@@ -104,7 +101,6 @@ Some of the concrete systems built in this repository include:
 - **Autonomous Multi-Agent Deal Finder (Capstone)**  
   A collaborative agent system that monitors opportunities, evaluates deals, and sends notifications.
 
----
 
 ## 🛠️ Tech Stack
 
@@ -127,8 +123,12 @@ Some of the concrete systems built in this repository include:
 Both frontier and open-source models are evaluated based on task requirements,
 cost, latency, and controllability.
 
----
-
+## 📂 Repository Structure
+.
+├── foundations/
+│   ├── gemini_web_summarizer
+│       ├── 01_gemini_web_summarizer.ipynb
+│       └── scraper.py
 <!-- ## 📂 Repository Structure
 
 ```
@@ -169,7 +169,6 @@ Each directory contains:
 * `uv` installed
   👉 [https://docs.astral.sh/uv/](https://docs.astral.sh/uv/)
 
----
 
 ### Setup
 
@@ -177,7 +176,7 @@ Each directory contains:
 
 ```bash
 git clone https://github.com/teddy7x7/llm_engineering_impl.git
-cd llm_engineering
+cd llm_engineering_impl
 ```
 
 2. **Create and sync environment with uv**
@@ -215,7 +214,7 @@ If you're reviewing this as a portfolio project:
 3. Check `projects/` for end-to-end integration
 4. Skim commit history to see iteration patterns -->
 
----
+
 
 ## 🙏 Acknowledgments
 
