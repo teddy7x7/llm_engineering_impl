@@ -216,3 +216,6 @@ week8/*.pth
 
 # ===== Temporary files =====
 temp/
+
+# ===== database files =====
+*.db
