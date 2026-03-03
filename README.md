@@ -124,11 +124,12 @@ Both frontier and open-source models are evaluated based on task requirements,
 cost, latency, and controllability.
 
 ## 📂 Repository Structure
-.
-├── foundations/
-│   ├── gemini_web_summarizer
-│       ├── 01_gemini_web_summarizer.ipynb
-│       └── scraper.py
+.  
+├── foundations/  
+│   ├── gemini_web_summarizer  
+│   │    ├── 01_gemini_web_summarizer.ipynb  
+│   │    └── scraper.py  
+
 <!-- ## 📂 Repository Structure
 
 ```
